@@ -8,7 +8,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/LLK/scratch-gui.git"
+    "url": "https://github.com/text-based-scratch/bs3-gui.git"
   },
   "main": "./dist/scratch-gui.js",
   "scripts": {
