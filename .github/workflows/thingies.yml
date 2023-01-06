@@ -15,6 +15,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 10.x
-    - run: npm install
-    - run: npm run build
-    - run: npm run test:unit
+    - run: npm install --experimental-modules
+    - run: npm run build --experimental-modules
+    - run: npm run test:unit --experimental-modules
