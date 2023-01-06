@@ -15,6 +15,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 19.x
+    - run: git config remote.origin.url 'https://${{ secrets.ACCESS_TOKEN }}@github.com/text-based-scratch/bs3-gui'
     - run: git config --global user.email "80916557+illogicalapple@users.noreply.github.com"
     - run: git config --global user.name "i am a robot"
     - run: npm install
