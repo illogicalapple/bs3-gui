@@ -5,6 +5,7 @@
   "author": "Massachusetts Institute of Technology",
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/LLK/scratch-gui#readme",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/LLK/scratch-gui.git"
