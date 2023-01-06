@@ -1,5 +1,9 @@
 name: some things
 
+env:
+  EMAIL: 80916557+illogicalapple@users.noreply.github.com
+  NAME: illogicalapple
+
 on:
   push:
     branches: [ develop ]
@@ -15,5 +19,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 19.x
+    - run: git config --global user.email $EMAIL
+    - run: git config --global user.name $NAME
     - run: npm install
     - run: npm run deploy
